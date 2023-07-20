@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/baseFragment">
+
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.example.hockeymanagertest.ui.screens.BaseFragment"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_base" />
+    <fragment
+        android:id="@+id/clubFragment"
+        android:name="com.example.hockeymanagertest.ui.screens.ClubFragment"
+        android:label="fragment_club"
+        tools:layout="@layout/fragment_club" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.hockeymanagertest.ui.screens.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/storeFragment"
+        android:name="com.example.hockeymanagertest.ui.screens.StoreFragment"
+        android:label="fragment_store"
+        tools:layout="@layout/fragment_store" />
+</navigation>
